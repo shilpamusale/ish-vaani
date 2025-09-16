@@ -51,7 +51,7 @@ The project will be built using a modern MLOps stack, designed for robustness, s
 
 ```mermaid
 graph TD  
-    subgraph "User Interface"  
+    subgraph "User Interface (Gradio/Streamlit)"  
         A[Tokenizer UI]  
         B[Robustness UI]  
         C[Interpretability UI]  
@@ -81,7 +81,25 @@ graph TD
     C --> E --> H --> L  
 
     D --> E --> I --> M  
-    I --> L
+    I --> L  
+
+    %% --- Styling ---
+    style A fill:#5DADE2,stroke:#154360,stroke-width:2px,color:#fff  
+    style B fill:#5DADE2,stroke:#154360,stroke-width:2px,color:#fff  
+    style C fill:#5DADE2,stroke:#154360,stroke-width:2px,color:#fff  
+    style D fill:#5DADE2,stroke:#154360,stroke-width:2px,color:#fff  
+
+    style E fill:#28B463,stroke:#0B5345,stroke-width:3px,color:#fff  
+    style F fill:#58D68D,stroke:#145A32,stroke-width:2px,color:#fff  
+    style G fill:#58D68D,stroke:#145A32,stroke-width:2px,color:#fff  
+    style H fill:#58D68D,stroke:#145A32,stroke-width:2px,color:#fff  
+    style I fill:#58D68D,stroke:#145A32,stroke-width:2px,color:#fff  
+
+    style J fill:#F5B041,stroke:#784212,stroke-width:2px,color:#000  
+    style K fill:#F5B041,stroke:#784212,stroke-width:2px,color:#000  
+    style L fill:#F5B041,stroke:#784212,stroke-width:2px,color:#000  
+    style M fill:#F5B041,stroke:#784212,stroke-width:2px,color:#000  
+
 ```
 ## **6\. Project Status & Roadmap**
 
