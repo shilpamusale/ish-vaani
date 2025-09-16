@@ -1,4 +1,4 @@
-# **Project IshVaani (ईशवाणी): The Divine Voice**
+# **Project IshVaani (ईशवाणी)**
 
 ### **An Interpretability, Robustness, and Safety Toolkit for Hindi Language Models**
 
