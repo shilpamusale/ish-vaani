@@ -49,34 +49,40 @@ The final **IshVaani toolkit** will be a deployed web application featuring four
 
 The project will be built using a modern MLOps stack, designed for robustness, scalability, and reproducibility.
 
+```mermaid
 graph TD  
-    subgraph "User Interface (Gradio/Streamlit)"  
-        A\[Tokenizer UI\]  
-        B\[Robustness UI\]  
-        C\[Interpretability UI\]  
-        D\[Bias Workbench UI\]  
+    subgraph "User Interface"  
+        A[Tokenizer UI]  
+        B[Robustness UI]  
+        C[Interpretability UI]  
+        D[Bias Workbench UI]  
     end
 
     subgraph "Backend (FastAPI & Docker)"  
-        E\[API Gateway\]  
-        F\[Tokenizer Service\]  
-        G\[Adversarial Attack Service\]  
-        H\[Interpretability Engine w/ TransformerLens\]  
-        I\[Bias Mitigation Service w/ PEFT\]  
+        E[API Gateway]  
+        F[Tokenizer Service]  
+        G[Adversarial Attack Service]  
+        H[Interpretability Engine w/ TransformerLens]  
+        I[Bias Mitigation Service w/ PEFT]  
     end
 
     subgraph "Models & Artifacts"  
-        J\[Custom BPE Tokenizer\]  
-        K\[Baseline Tokenizer\]  
-        L\[Fine-Tuned QA Model\]  
-        M\[LoRA Adapters\]  
+        J[Custom BPE Tokenizer]  
+        K[Baseline Tokenizer]  
+        L[Fine-Tuned QA Model]  
+        M[LoRA Adapters]  
     end
 
-    A \--\> E \--\> F \--\> J & K  
-    B \--\> E \--\> G \--\> L  
-    C \--\> E \--\> H \--\> L  
-    D \--\> E \--\> I \--\> M & L
+    A --> E --> F --> J  
+    F --> K  
 
+    B --> E --> G --> L  
+
+    C --> E --> H --> L  
+
+    D --> E --> I --> M  
+    I --> L
+```
 ## **6\. Project Status & Roadmap**
 
 This project is currently in the initial development phase.
