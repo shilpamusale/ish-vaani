@@ -2,11 +2,10 @@
 
 ### **An Interpretability, Robustness, and Safety Toolkit for Hindi Language Models**
 
-**Project Status:** 🚧 **In Progress (Planning & Phase 1 Development)** 🚧
+**Project Status:** **In Progress (Planning & Phase 1 Development)** 
 
-**Author:** Ishi
+**Author:** Shilpa Musale (Ishi)
 
-LinktoyourGitHubProfileorLinkedIn
 
 ## **1\. Vision: Listening to the Voice of AI**
 
@@ -35,15 +34,16 @@ Before we can analyze a model, we must ensure its foundations are solid. This ph
 
 The core of the project is to build an interactive web application that serves as a comprehensive "lens" into Hindi NLP models. This toolkit will provide a suite of advanced features for researchers and developers.
 
-## **4\. Features**
+## 4. Features
 
-The final IshVaani toolkit will be a deployed web application featuring four key modules:
+The final **IshVaani toolkit** will be a deployed web application featuring four key modules:
 
-| Feature | Description | Core Skill Demonstrated |  
-| Interactive Tokenizer Visualizer | A side-by-side comparison tool to visualize how different tokenizers split Hindi and Hinglish text, productizing the findings from Phase 1\. | Foundational NLP Systems Engineering |  
-| Adversarial Robustness Suite | A suite of tools to automatically generate linguistically-aware adversarial attacks (e.g., synonym swapping, romanization) to probe for model weaknesses. | AI Robustness & Reliability Testing |  
-| Mechanistic Interpretability Lab | An advanced toolkit using TransformerLens to visualize attention patterns and trace model decisions back to specific neurons and attention heads. | Deep Model Analysis & Research Mindset |  
-| Bias Steering Workbench | A closed-loop system to diagnose a specific bias (e.g., gender bias), mitigate it with targeted fine-tuning (LoRA), and verify the successful reduction. | AI Safety & Steerable AI Systems |
+| Feature                       | Description                                                                                                                                       | Core Skill Demonstrated                  |
+|-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| Interactive Tokenizer Visualizer | A side-by-side comparison tool to visualize how different tokenizers split Hindi and Hinglish text, productizing the findings from Phase 1.       | Foundational NLP Systems Engineering      |
+| Adversarial Robustness Suite  | A suite of tools to automatically generate linguistically-aware adversarial attacks (e.g., synonym swapping, romanization) to probe for weaknesses. | AI Robustness & Reliability Testing       |
+| Mechanistic Interpretability Lab | An advanced toolkit using TransformerLens to visualize attention patterns and trace model decisions back to specific neurons and attention heads.  | Deep Model Analysis & Research Mindset    |
+| Bias Steering Workbench       | A closed-loop system to diagnose a specific bias (e.g., gender bias), mitigate it with targeted fine-tuning (LoRA), and verify the reduction.      | AI Safety & Steerable AI Systems          |
 
 ## **5\. Technical Architecture**
 
@@ -92,7 +92,8 @@ This project is currently in the initial development phase.
 *(This section will be updated with setup and installation instructions once the toolkit is ready for its initial release.)*
 
 \# Clone the repository (coming soon)  
-git clone \[https://github.com/your-username/ishvaani.git\](https://github.com/your-username/ishvaani.git)  
+git clone \[https://github.com/shilpamusale/ish-vaani.git\](https://github.com/shilpamusale/ish-vaani.git)  
+
 cd ishvaani
 
 \# Install dependencies (coming soon)  
