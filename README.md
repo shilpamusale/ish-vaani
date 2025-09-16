@@ -9,7 +9,7 @@
 
 ## **1\. Vision: Listening to the Voice of AI**
 
-Large Language Models are becoming increasingly powerful, yet they remain complex, opaque systems. Their inner workings, especially in non-English languages like Hindi, are not well understood. **Project IshVaani** (a name combining "Ishi" and "Vani," meaning *The Lord's Voice* or *The Divine Word*) is a research and engineering initiative to build a comprehensive open-source toolkit designed to interpret, stress-test, and steer the behavior of Hindi and "Hinglish" (code-switched) language models.
+Large Language Models are becoming increasingly powerful, yet they remain complex, opaque systems. Their inner workings, especially in non-English languages like Hindi, are not well understood. **Project IshVaani** is a research and engineering initiative to build a comprehensive open-source toolkit designed to interpret, stress-test, and steer the behavior of Hindi and "Hinglish" (code-switched) language models.
 
 This project moves beyond simply using models and aims to provide the tools to **deeply understand them**, aligning directly with the core AI safety and research missions of top labs focused on building reliable, interpretable, and steerable AI systems.
 
